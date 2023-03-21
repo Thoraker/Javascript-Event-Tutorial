@@ -3,4 +3,6 @@ window.onload = function myLoadFunction() {
 	//some code here
 };
 
+const boton = document.getElementById('theGreen');
 //the listener function here
+boton.addEventListener("click", onclick = () => alert("Wohoo!"));
